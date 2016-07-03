@@ -24,6 +24,9 @@ h3
 h4
 {
   font-style: italic;
+  font-size: 0.8em;
+  padding-top: 0.0em;
+  margin-top: auto;
 }
 
 p
@@ -38,20 +41,22 @@ nav
     text-decoration: none;
 }
 
-main img
+nav ul :hover
 {
-/*  margin-left: auto;
-  margin-right: auto;*/
-/*  height: auto;*/
-
+    /*opacity: .7;*/
+    background-color: yellow;
 }
+
+/*main div img
+{
+  margin-left: 1px;
+}*/
 
 nav li
 {
     display: inline-block;
-    border-style: solid;
-    padding-right: 25px;
-    padding-left: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
     border-radius: .50em;
     text-decoration: none;
     font-size: 1.2em;
@@ -62,8 +67,8 @@ li
   background: #90c5a9;
   text-align: center;
   border: 1px solid black;
-  display: inline-block;
-  margin-left: 1.5%;
+  margin-left: 1%;
+  width: 197px;
 }
 li.Items
 {
@@ -77,15 +82,20 @@ main{
   height: auto;
   width: auto;
 }
+header nav li
+{
+    width: 115px;
+}
+
+
 
 li img
 {
-  width: 150px;
-  height: 150px;
-  margin-right: 1%;
+  width: 160px;
+  height: 140px;
+  /*padding-right: 12%;
+  padding-left: 5%;*/
   margin-top: 5%;
-  /*float: left;
-  /*border: 1px solid black;*/
 }
 
 li h2
@@ -97,7 +107,7 @@ li h2
 main ul
 {
   display: inline-flex;
-  margin-left: 0%;
+  margin-left: -2.5%;
 }
 
 
@@ -107,15 +117,17 @@ main ul h2
     text-align: center;
 }
 
-/*div.Precio
+main div p
 {
-  float: left;
-}*/
-
+  font-family: serif;
+}
 
 footer ul li
 {
   display: inline-block;
+  margin-left: 4%;
+  padding-right: .55em;
+  width: 100px;
 }
 
 footer a
@@ -123,6 +135,20 @@ footer a
     text-decoration: none;
     font-style: italic;
     color: #0000;
+    margin-top: 0;
+}
+
+
+footer p
+{
+  float: left;
+  margin-top: 0;
+}
+
+footer li
+{
+  border-radius: 0.3em;
+
 }
 
 //////////////////////////
@@ -138,57 +164,61 @@ main img
 div.CuadroAbout
 {
    clear: both;
-   margin-left: 1%;
+   margin-left: 1.5%;
+   float: left;
 }
 
 div.ParagraphRight, div.Middle
 {
      background: white;
-     margin-left: 32%;
-     width: 55%;
-     text-align: justify;
-     margin-top: 0%;
-     padding-top: 0;
-
+     margin-left: 40%;
+     width: 48%;
+     font-family: cursive;
+     /*padding-bottom: 0.5%;*/
+     padding-left: 5%;
+     padding-right: 2%;
 }
 
 div.BottomLeft
 {
      background: white;
-     margin-left: 32%;
-     width: 35%;
+     margin-left: 2%;
+     width: 26%;
+     height: 190px;
      text-align: justify;
      margin-top: 0%;
      padding-top: 0;
+     padding-left: 1%;
+     padding-right: 1%;
      float: left;
+     font-family: sans-serif;
+     font-style: italic;
 }
 div.BottomRight
 {
      background: white;
-     margin-left: 32%;
-     width: 65%;
-     text-align: justify;
-     margin-top: 0%;
+     margin-left: 65%;
+     width: 28%;
+     height: 190px;
+     padding-top: 0.15%;
+     padding-left: 1%;
+     padding-right: 1%;
+     font-family: sans-serif;
+     font-style: italic;
 }
-
 
 div.ParagraphDown
 {
      background: white;
-     width: 31%;
-     text-align: justify;
-     font-size: 15.5;
+     width: 18.25%;
+     height: 72%;
+     margin: 1.5%;
+     font-family: 'Roboto Mono', sans-serif;
+     margin-top: 0.1%;
+     padding-left: 5px;
+     padding-top: 1.5px;
+     padding-bottom: 1.5px;
 }
-
-
-/*div.ParagraphRight
-{
-    float: none;
-    padding-left: 50px;
-    font-size: 1.5em;
-
-}*/
-
 
 //////////////////////////////
 /* Code for contact_us.html */
@@ -207,36 +237,62 @@ div.ParagraphDown
 
 .top input, .top select, .top textarea
 {
-    font-style: italic;
+  font-style: italic;
 }
 
 div.CuadroMapa
 {
-  /*background: green;*/
   float: left;
   padding-left: 1em;
-  width: 60%;
+  width: 59%;
+  height: 55%;
+  clear: both;
 }
 
 div.CuadroMapa div
 {
   /*background: white;*/
   float: left;
-  width: 60%;
-
+  width: 55%;
+  height: auto;
+  clear: both;
 }
 
-address
+.main CuadroMapa img
 {
-  margin-left: 285px;*/
+    width: 50%;
 }
 
+main address h2, main articulo h2
+{
+    font-size: medium;
+    font-style: normal;
+}
 
+main address
+{
+  margin-left: 380px;
+  padding-right: 40px;
+}
+
+main articulo h2
+{
+    font-size: 0.8em;
+    font-style: oblique;;
+}
+
+main articulo h2
+{
+    padding-left: 380px;
+  padding-right: 40px;
+
+}
 
 label
 {
   display: block;
 }
+
 text{
   display: block;
 }
